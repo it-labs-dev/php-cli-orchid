@@ -1,4 +1,4 @@
-# php-fpm
+# php-cli
 
 Basic php-cli image, for building apps on top of it.
 
