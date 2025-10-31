@@ -13,7 +13,7 @@ RUN apk update && \
         libpq-dev \
     	imagemagick-dev \
     	libzip-dev && \
-    docker-php-ext-install zip pdo pdo_pgsql pgsql pdo_mysql intl exif && \
+    docker-php-ext-install zip pdo pdo_pgsql pgsql pdo_mysql intl redis exif && \
     pecl install  -o -f imagick && \
 	docker-php-ext-enable imagick && \
 	#apk del .build-deps && \
