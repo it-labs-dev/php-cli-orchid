@@ -14,6 +14,8 @@ Basic php-cli image, for building apps on top of it.
 * pdo_pgsql
 * exif
 * curl
+* sockets
+* redis
 
 #### Software:
 * composers

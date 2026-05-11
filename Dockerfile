@@ -12,7 +12,7 @@ RUN apk update && \
     	icu-dev \
         libpq-dev \
     	imagemagick-dev \
-    	libzip-dev && \
+    	libzip-dev \
         linux-headers && \
     docker-php-ext-install zip pdo pdo_pgsql pgsql pdo_mysql intl exif sockets && \
     pecl install  -o -f imagick && \
