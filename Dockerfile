@@ -19,6 +19,8 @@ RUN apk update && \
 	docker-php-ext-enable imagick && \
     pecl install -o -f redis && \
     docker-php-ext-enable redis && \
+    pecl install -o -f grpc && \
+    docker-php-ext-enable grpc && \
 	#apk del .build-deps && \
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
