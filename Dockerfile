@@ -19,7 +19,7 @@ RUN apk update && \
     	imagemagick-dev \
     	libzip-dev \
         linux-headers && \
-    docker-php-ext-install zip pdo pdo_pgsql pgsql pdo_mysql intl exif sockets bcmath && \
+    docker-php-ext-install zip pdo pdo_pgsql pgsql pdo_mysql intl exif sockets bcmath pcntl && \
     install-php-extensions imagick && \
     install-php-extensions redis && \
     install-php-extensions grpc && \
