@@ -34,3 +34,4 @@ RUN apk add --no-cache curl unzip && \
     && chmod +x /usr/local/bin/protoc-gen-php
 
 WORKDIR /app
+
