@@ -29,7 +29,7 @@ RUN apk add --no-cache curl unzip && \
     curl -LO "https://github.com/protocolbuffers/protobuf/releases/download/v${PROTOC_VERSION}/protoc-${PROTOC_VERSION}-linux-x86_64.zip" && \
     unzip "protoc-${PROTOC_VERSION}-linux-x86_64.zip" -d /usr/local && \
     rm "protoc-${PROTOC_VERSION}-linux-x86_64.zip" && \
-    curl -L https://github.com/thesis-php/protoc-plugin/releases/download/${PROTOC_PLUGIN_VERSION}/protoc-gen-php \
+    curl -L https://github.com/thesis-php/protoc-plugin/releases/download/0.2.0/protoc-gen-php \
     -o /usr/local/bin/protoc-gen-php \
     && chmod +x /usr/local/bin/protoc-gen-php
 
